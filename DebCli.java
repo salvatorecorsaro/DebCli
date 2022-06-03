@@ -8,7 +8,6 @@ import picocli.CommandLine.Parameters;
 
 
 @Command(name = "DebCli", version = "DebCli 1.0", mixinStandardHelpOptions = true)
-@SuppressWarnings("all")
 public class DebCli implements Runnable {
 
 
