@@ -17,6 +17,7 @@ public class DebCli implements Runnable {
 
     @Override
     public void run() {
+        System.out.println("DebCli 1.0");
         var song = new Song("The Sign", "Ace of Base", "4:03");
         System.out.println(song);
     }
